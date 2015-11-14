@@ -40,3 +40,5 @@ typings
 
 # Visual Studio Code jsconfig.json
 jsconfig.json
+
+*.db
