@@ -1,0 +1,22 @@
+{
+  "name": "database_prep",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "knex": "^0.9.0",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
