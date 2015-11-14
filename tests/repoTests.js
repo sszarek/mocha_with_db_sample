@@ -2,8 +2,8 @@
 
 var assert = require('assert'),
     testDatabase = require('./testDatabase'),
-    Person = require('./../Person'),
-    mapper = require('./../peopleMapper');
+    Person = require('./../model/Person'),
+    mapper = require('./../model/peopleMapper');
 
 describe('adding people', function () {
     before(function () {

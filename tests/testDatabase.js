@@ -4,8 +4,8 @@ var Promise = require('bluebird'),
     readFile = Promise.promisify(require('fs').readFile),
     db = require('./../database');
 
-const CREATE_SQL = './create.sql';
-const DESTROY_SQL = './destroy.sql';
+const CREATE_SQL = './sqls/create.sql';
+const DESTROY_SQL = './sqls/destroy.sql';
 
 module.exports = {
     init: function () {
