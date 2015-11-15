@@ -1,4 +1,4 @@
-# Moch testing with database sample
+# Mocha testing with database sample
 
 Code in this repository is prototype for integration tests using mocha and knex frameworks.
 
